@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="OncHeader"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="ce7c9202-0e72-4360-93a7-147f37d38c98"
+        Properties="{&quot;TopString&quot;:&quot;ONC Header Menu Dropdown&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

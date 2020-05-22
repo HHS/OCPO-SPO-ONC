@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "onc-header-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/oncHeader/OncHeaderApplicationCustomizer.js",
+          "manifest": "./src/extensions/oncHeader/OncHeaderApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "OncHeaderApplicationCustomizerStrings": "lib/extensions/oncHeader/loc/{locale}.js"
+  }
+}

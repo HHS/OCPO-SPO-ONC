@@ -1,6 +1,6 @@
-## onc-frame
+## onc-frame-client-side-solution
 
-This is where you include your WebPart documentation.
+Foe detailed design and code documentation please refer to the design document. 
 
 ### Building the code
 
@@ -19,8 +19,11 @@ This package produces the following:
 
 ### Build options
 
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+```bash
+gulp bundle --ship
+gulp package-solution --ship
+```
+
+### SharePoint deployable solution package
+
+The file can be located at: ```sharepoint/solution/onc-frame.sppkg```
